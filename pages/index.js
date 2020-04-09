@@ -1,11 +1,11 @@
-import React from 'react'
+import Layout from '../components/Layout'
 
-const index = () => {
+const Home = () => {
   return (
-    <div>
-      Welcome to the home page
-    </div>
+    <Layout title='Home'>
+      <p>Welcome to the home page</p>
+    </Layout>
   )
 }
 
-export default index
+export default Home
